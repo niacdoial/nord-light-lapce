@@ -1,0 +1,100 @@
+# Nord theme, by https://github.com/arcticicestudio/ (repo: https://github.com/arcticicestudio/nord)
+# Based off of VS Code theme: https://github.com/arcticicestudio/nord-visual-studio-code/blob/develop/themes/nord-color-theme.json
+# Ported by Joshua Peisach
+[color-theme]
+name = "Nord"
+
+[color-theme.base]
+black = "#2e3440"  #night0
+red = "#bf616a"  #aurora11
+orange = "#d08770"  #aurora12
+yellow = "#ebcb8b"  #aurora13
+green = "#a3be8c"  #aurora14
+purple = "#b48ead"  #aurora15
+blue = "#81A1C1"  #frost9
+white = "#E5E9F0"  # snow5
+cyan = "#88c0d0"  #frost8
+
+[color-theme.syntax]
+comment = "#616E88"
+constant = "#D8DEE9"  #snow4
+type = "#8FBCBB"  #frost7
+typeAlias = "#8FBCBB"  #frost7
+number = "$purple"
+attribute = "#8FBCBB"  #frost7
+constructor = "#88C0D0"  #frost8
+function = "#88C0D0"  #frost8
+keyword = "$blue"
+selfKeyword = "$blue"
+string = "$green"
+"type.builtin" = "$blue"
+builtinType = "$blue"
+"string.escape" = "$orange"
+variable = "#D8DEE9"  #snow4
+tag = "$blue"
+operator = "$blue"
+property = "$blue"
+class = "#8FBCBB"  #frost7
+
+[color-theme.ui]
+"lapce.error" = "$red"
+"lapce.warning" = "$yellow"
+"lapce.border" = "#3b4252"  #night1
+"lapce.scroll_bar" = "#434c5eaa"  #night2
+
+"lapce.button.primary.background" = "#88c0d0ee"  #frost8
+"lapce.button.primary.foreground" = "$black"
+
+"lapce.tab.active.background" = "#3b4252"  #night1
+"lapce.tab.active.foreground" = "#d8dee9"  #snow4
+
+"lapce.tab.inactive.background" = "$black"
+"lapce.tab.inactive.foreground" = "#d8dee966"  #snow4
+
+"lapce.tab.separator" = "#3b425200"  #night1
+
+"activity.background" = "$black"
+"activity.foreground" = "#d8dee9"  #snow4
+
+"editor.background" = "$black"
+"editor.foreground" = "#D8DEE9"  #snow4
+"editor.selection" = "#434c5ecc"  #night2
+"editor.current_line" = "#3b4252"  #night1
+"editor.link" = "#88c0d0"  #frost8
+"editor.visible_whitespace" = "#4c566ab3"  #night3
+"editor.indent_guide" = "#434c5eb3"  #night2
+
+"panel.background" = "$black"
+"panel.foreground" = "#d8dee9"  #snow4
+"panel.current.foreground" = "#88c0d0"  #frost8
+
+"markdown.blockquote" = "#3b4252"  #night1
+
+"status.background" = "#3b4252"  #night1
+"status.foreground" = "#d8dee9"  #snow4
+
+"inlay_hint.background" = "#434c5e"  #night2
+"inlay_hint.foreground" = "#d8dee9"  #snow4
+
+"source_control.added" = "$green"
+"source_control.removed" = "$red"
+"source_control.modified" = "$yellow"
+
+"terminal.background" = "$black"
+"terminal.foreground" = "#d8dee9"  #snow4
+"terminal.black" = "#3b4252"  #night1
+"terminal.red" = "$red"
+"terminal.green" = "$green"
+"terminal.yellow" = "$yellow"
+"terminal.blue" = "$blue"
+"terminal.magenta" = "$purple"
+"terminal.cyan" = "$cyan"
+"terminal.white" = "$white"
+"terminal.bright_black" = "#4c566a"  #night3
+"terminal.bright_red" = "$red"
+"terminal.bright_green" = "$green"
+"terminal.bright_yellow" = "$yellow"
+"terminal.bright_blue" = "$blue"
+"terminal.bright_magenta" = "$purple"
+"terminal.bright_cyan" = "#8fbcbb"  #frost7
+"terminal.bright_white" = "#eceff4"  #snow6

@@ -6,6 +6,7 @@ name = "Nord"
 
 [color-theme.base]
 black = "#2e3440"  #night0
+grey = "#d8dee9"  #snow4
 red = "#bf616a"  #aurora11
 orange = "#d08770"  #aurora12
 yellow = "#ebcb8b"  #aurora13
@@ -45,28 +46,61 @@ class = "#8FBCBB"  #frost7
 "lapce.button.primary.background" = "#88c0d0ee"  #frost8
 "lapce.button.primary.foreground" = "$white"
 
+"lapce.icon.active" = "$black"
+"lapce.icon.inactive" = "#4c566a"  #night3
+
+"lapce.plugin.author" = "#3b4252"  #night1
+"lapce.plugin.name" = "#3b4252"  #night1
+"lapce.plugin.description" = "$black"
+
+"lapce.remote.connected" = "$green"
+"lapce.remote.connecting" = "$yellow"
+"lapce.remote.disconnected" = "$red"
+"lapce.remote.local" = "$blue"
+"lapce.remote.icon" = "$white"
+
 "lapce.tab.active.background" = "#e5e9f0"  #snow5
 "lapce.tab.active.foreground" = "#4c566a"  #night3
 
-"lapce.tab.inactive.background" = "$black"
+"lapce.tab.inactive.background" = "$white"
 "lapce.tab.inactive.foreground" = "#4c566a66"  #night3
 
 "lapce.tab.separator" = "#e5e9f000"  #snow5
 
-"activity.background" = "$black"
+"activity.current" = "#e5e9f0"  #snow5
+"activity.background" = "$white"
 "activity.foreground" = "#4c566a"  #night3
 
-"editor.background" = "$black"
+"editor.background" = "$white"
 "editor.foreground" = "#4c566a"  #night3
 "editor.selection" = "#d8dee9cc"  #snow4
 "editor.current_line" = "#e5e9f0"  #snow5
+"editor.caret" = "#8fbcbb"  #frost7
 "editor.link" = "#88c0d0"  #frost8
 "editor.visible_whitespace" = "#e5e9f0b3"  #snow5
 "editor.indent_guide" = "#d8dee9b3"  #snow4
 
 "panel.background" = "$white"
 "panel.foreground" = "#4c566a"  #night3
+"panel.foreground.dim" = "#81A1C120"  #frost9
+"panel.current.background" = "#88c0d020"  #frost8
 "panel.current.foreground" = "#88c0d0"  #frost8
+"panel.current.foreground.dim" = "#81A1C120"  #frost9
+"panel.hovered.background" = "#d8dee9"  #snow4
+"panel.hovered.foreground" = "$black"
+"panel.hovered.foreground.dim" = "#81A1C120"  #frost9
+
+"palette.foreground" = "$black"
+"palette.background" = "$white"
+"palette.current.foreground" = "$black"
+"palette.current.background" = "#e5e9f0"  #snow5
+
+"error_lens.error.foreground" = "$red"
+"error_lens.error.background" = "#bf616a20"
+"error_lens.warning.foreground" = "$yellow"
+"error_lens.warning.background" = "#ebcb8b20"
+"error_lens.other.foreground" = "#d8dee9"  #snow4
+"error_lens.other.background" = "##d8dee920"  #snow4
 
 "markdown.blockquote" = "#e5e9f0"  #snow5
 
@@ -78,9 +112,10 @@ class = "#8FBCBB"  #frost7
 
 "source_control.added" = "$green"
 "source_control.removed" = "$red"
-"source_control.modified" = "$yellow"
+"source_control.modified" = "$orange"
 
 "terminal.background" = "$white"
+"terminal.cursor" = "#3b4252"  #night1
 "terminal.foreground" = "#4c566a"  #night3
 "terminal.black" = "$black"
 "terminal.red" = "$red"
